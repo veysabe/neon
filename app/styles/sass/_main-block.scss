@@ -1,0 +1,68 @@
+.main-block {
+  position: relative;
+  overflow: hidden;
+  .main-block-item {
+    height: 853px;
+  }
+
+  .main-block-content {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    font-family: 'Gilroy';
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 115.5%;
+    letter-spacing: 0.095em;
+    text-transform: uppercase;
+    color: white;
+    span {
+      color: #EF60BE;
+    }
+  }
+
+  .main-block-button {
+    margin-top: 52px;
+  }
+
+  .main-block-subtitle {
+    margin-top: 23px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 135.5%;
+    text-transform: uppercase;
+    color: #38375F;
+  }
+
+  .main-block-slider {
+    .slick-dots {
+      position: absolute;
+      bottom: 90px;
+      left: calc((100vw - 1300px)/2);
+      display: flex;
+      li {
+        width: 26px;
+        height: 2px;
+        background-color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        &.slick-active {
+          background: linear-gradient(138.21deg, #74E075 5.37%, #42922E 101.49%);
+        }
+      }
+      li + li {
+        margin-left: 12px;
+      }
+      button {
+        visibility: hidden;
+      }
+    }
+  }
+}

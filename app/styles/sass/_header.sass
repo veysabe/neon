@@ -1,0 +1,89 @@
+.header
+  display: flex
+  height: 90px
+  align-items: center
+  justify-content: space-between
+
+  .header-logo
+    margin-right: 53px
+
+  .header-left
+    display: flex
+    align-items: center
+
+  .header-right
+    display: flex
+    align-items: center
+
+
+.header-nav
+  .nav-item a
+    color: #BABABA
+    text-transform: uppercase
+    font-weight: 500
+    transition: .3s all ease-in-out
+
+    &:hover
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2)
+      color: white
+      text-decoration: none
+
+  ul
+    display: flex
+
+    li + li
+      margin-left: 31px
+
+
+.soc
+  ul
+    display: flex
+    align-items: center
+
+    li + li
+      margin-left: 21px
+
+  .soc-link
+    width: 38px
+    height: 38px
+    border-radius: 50%
+    border: 1px solid white
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: .3s all ease-in-out
+    background: black
+
+    &:hover
+      background: linear-gradient(138.21deg, #74E075 5.37%, #42922E 101.49%)
+      box-shadow: 0px 4px 41px #3BC73C
+
+      .soc-link-icon
+        path
+          fill: white
+
+  .soc-link
+    path
+      transition: .1s all ease-in-out
+      fill: #C2C2C2
+
+.contacts
+  margin-left: 38px
+  .tel-number
+    font-family: 'Montserrat'
+    color: white
+    font-weight: 700
+    line-height: 115.5%
+    font-size: 24px
+    letter-spacing: .8px
+
+    &:hover
+      text-decoration: none
+
+  .subtitle
+    font-family: 'Roboto'
+    font-weight: 300
+    font-size: 14px
+    line-height: 130.69%
+    text-align: right
+    color: #818181
