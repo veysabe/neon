@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c36115d-1786-436b-82b8-f3dd007165a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/banner/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/dist/banner/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/sass/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/_header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/sass/_main-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/_main-block.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/main.sass" afterDir="false" />
-    </list>
+    <list default="true" id="3c36115d-1786-436b-82b8-f3dd007165a8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617640133791</updated>
-      <workItem from="1617640134878" duration="16210000" />
+      <workItem from="1617640134878" duration="16536000" />
     </task>
     <servers />
   </component>
