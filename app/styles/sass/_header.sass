@@ -14,6 +14,8 @@
   .header-right
     display: flex
     align-items: center
+  .burger
+    display: none
 
 
 .header-nav
@@ -67,6 +69,30 @@
       transition: .1s all ease-in-out
       fill: #C2C2C2
 
+.burger
+  width: 19px
+  height: 2px
+  border-radius: 2px
+  background: white
+  position: relative
+  cursor: pointer
+  &:before
+    content: ''
+    background: white
+    position: absolute
+    width: 19px
+    height: 2px
+    border-radius: 2px
+    top: -5px
+  &:after
+    content: ''
+    background: white
+    position: absolute
+    width: 9.5px
+    height: 2px
+    border-radius: 2px
+    bottom: -5px
+
 .contacts
   margin-left: 38px
   .tel-number
@@ -87,3 +113,26 @@
     line-height: 130.69%
     text-align: right
     color: #818181
+
+
+.header-mob
+  display: none
+  height: 55px
+  background: black
+  .header-mob-wrapper
+    align-items: center
+    justify-content: space-between
+    display: flex
+    height: 100%
+  .logo
+    width: 115px
+    img
+      max-width: 100%
+  .call
+    width: 36px
+    height: 36px
+    background: linear-gradient(138.21deg, #74E075 5.37%, #42922E 101.49%)
+    border-radius: 50%
+    display: flex
+    align-items: center
+    justify-content: center

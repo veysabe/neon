@@ -5,13 +5,34 @@
     height: 853px;
   }
 
+  .main-block-image {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    .full, .mob {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .mob {
+      display: none;
+    }
+  }
+
   .main-block-content {
     height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .main-block-content__inner {
+    position: relative;
+    z-index: 2;
   }
 
   .title {
@@ -64,5 +85,12 @@
         visibility: hidden;
       }
     }
+  }
+
+  .line-rider {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    bottom: 40px;
   }
 }

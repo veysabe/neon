@@ -2,273 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c36115d-1786-436b-82b8-f3dd007165a8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/bik.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/food/1-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/food/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/food/2-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/food/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/food/3-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/food/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/food/4-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/food/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/food/5-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/food/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/food/6-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/food/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/food/7-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/food/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/food/8-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/food/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/food/9-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/food/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/arrow-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/arrow-right-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/arrow-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/arrow-up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/bar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/close.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/fb-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/fb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/hazelnut.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/ig-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/ig.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/map-marker.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/mob-phone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/nut.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/pistachios.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/quotes.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/vk-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/vk.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/yt-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/icons/yt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/labels/eac.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/labels/halal-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/labels/halal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/labels/made-in-ta-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/labels/made-in-ta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/logo-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/logo-orange-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/logo-orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/main-window-bg-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/main-window-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/main-window-bg.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/nuts-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/nuts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/pdf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/phone-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/phone-mob-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/phone-mob.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/phone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/pistachios-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/pistachios.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/1-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/1-thumb-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/1-thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/2-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/2-thumb-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/2-thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/3-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/3-thumb-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/3-thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/4-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/5-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/6-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/7-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/8-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/9-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/productions/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/stock-bg-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/stock-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/stories/1-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/stories/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/stories/2-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/stories/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/stories/3-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/stories/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/wave-gray-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/wave-gray-up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/wave-gray.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/waves-pattern-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/dist/waves-pattern.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/bik.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/food/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/food/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/food/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/food/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/food/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/food/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/food/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/food/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/food/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/arrow-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/arrow-right-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/arrow-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/arrow-up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/bar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/close.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/fb-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/fb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/hazelnut.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/ig-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/ig.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/map-marker.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/mob-phone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/nut.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/pistachios.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/quotes.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/vk-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/vk.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/yt-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/icons/yt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/labels/eac.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/labels/halal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/labels/made-in-ta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/logo-orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/main-window-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/main-window-bg.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/nuts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/pdf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/phone-mob.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/phone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/pistachios.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/productions/1-thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/productions/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/productions/2-thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/productions/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/productions/3-thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/productions/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/productions/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/productions/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/productions/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/productions/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/productions/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/productions/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/stock-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/stories/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/stories/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/stories/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/wave-gray-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/wave-gray-up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/wave-gray.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/waves-pattern-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/src/waves-pattern.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dist/banner/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/dist/banner/1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/sass/_config.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/_config.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/_media.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/sass/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/_header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/sass/_main-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/_main-block.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/_media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/styles/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/bik.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/food/1-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/food/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/food/2-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/food/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/food/3-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/food/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/food/4-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/food/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/food/5-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/food/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/food/6-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/food/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/food/7-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/food/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/food/8-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/food/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/food/9-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/food/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/arrow-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/arrow-right-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/arrow-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/arrow-up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/bar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/close.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/fb-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/fb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/hazelnut.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/ig-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/ig.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/map-marker.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/mob-phone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/nut.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/pistachios.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/quotes.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/vk-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/vk.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/yt-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/icons/yt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/labels/eac.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/labels/halal-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/labels/halal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/labels/made-in-ta-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/labels/made-in-ta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/logo-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/logo-orange-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/logo-orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/dist/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/main-window-bg-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/main-window-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/main-window-bg.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/nuts-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/nuts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/pdf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/phone-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/phone-mob-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/phone-mob.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/phone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/pistachios-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/pistachios.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/1-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/1-thumb-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/1-thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/2-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/2-thumb-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/2-thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/3-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/3-thumb-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/3-thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/4-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/5-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/6-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/7-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/8-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/9-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/productions/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/stock-bg-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/stock-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/stories/1-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/stories/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/stories/2-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/stories/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/stories/3-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/stories/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/wave-gray-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/wave-gray-up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/wave-gray.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/waves-pattern-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/dist/waves-pattern.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,7 +57,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/images/dist/banner" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/styles/sass" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
@@ -322,12 +65,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Job\neon\app\images\dist\banner" />
-      <recent name="C:\Job\neon\app\images\dist" />
       <recent name="C:\Job\neon\app\styles\sass" />
+      <recent name="C:\Job\neon\app\images\dist\banner" />
+      <recent name="C:\Job\neon\app\images" />
+      <recent name="C:\Job\neon\app\images\dist" />
       <recent name="C:\Job\neon\app\fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Job\neon\app\images\dist" />
       <recent name="C:\Job\neon\app\images\dist\banner" />
     </key>
   </component>
@@ -339,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617640133791</updated>
-      <workItem from="1617640134878" duration="9930000" />
+      <workItem from="1617640134878" duration="16210000" />
     </task>
     <servers />
   </component>
