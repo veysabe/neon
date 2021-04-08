@@ -1,6 +1,7 @@
 .main-block {
   position: relative;
   overflow: hidden;
+
   .main-block-item {
     height: 853px;
   }
@@ -11,12 +12,14 @@
     width: 100%;
     height: 100%;
     z-index: 1;
+
     .full, .mob {
       width: 100%;
       height: 100%;
       background-size: cover;
       background-repeat: no-repeat;
     }
+
     .mob {
       display: none;
     }
@@ -43,6 +46,7 @@
     letter-spacing: 0.095em;
     text-transform: uppercase;
     color: white;
+
     span {
       color: #EF60BE;
     }
@@ -66,24 +70,7 @@
     .slick-dots {
       position: absolute;
       bottom: 90px;
-      left: calc((100vw - 1300px)/2);
-      display: flex;
-      li {
-        width: 26px;
-        height: 2px;
-        background-color: white;
-        border-radius: 5px;
-        cursor: pointer;
-        &.slick-active {
-          background: linear-gradient(138.21deg, #74E075 5.37%, #42922E 101.49%);
-        }
-      }
-      li + li {
-        margin-left: 12px;
-      }
-      button {
-        visibility: hidden;
-      }
+      left: calc((100vw - 1300px) / 2);
     }
   }
 
