@@ -54,6 +54,18 @@
   }
 }
 
+.button-outline {
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  font-size: 13px;
+  line-height: 115.5%;
+  text-transform: uppercase;
+  &:active {
+    color: white;
+  }
+}
+
 .slick-dots {
   display: flex;
   li {
