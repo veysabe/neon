@@ -1,0 +1,48 @@
+.facts {
+  padding-top: 158px;
+  overflow: hidden;
+
+  .facts-slider {
+    &:active, &:focus {
+      outline: none;
+      border: none;
+    }
+    padding-top: 120px;
+  }
+
+  .facts-title {
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 115.5%;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+    color: #D9D9D9;
+
+    span {
+      color: #74E075;
+    }
+  }
+
+  .facts-text-content {
+    padding-top: 42px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 54px;
+
+    .facts-text {
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 159.69%;
+      color: #7A7A7A
+    }
+  }
+
+  .facts-element + .facts-element{
+    margin-right: -100px;
+  }
+
+  .facts-element:nth-child(2n) {
+    margin-right: -60px;
+    padding-top: 82px;
+  }
+}

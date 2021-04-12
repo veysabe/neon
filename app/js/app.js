@@ -26,7 +26,7 @@ $(document).ready(function () {
             cellAlign: 'right',
             prevNextButtons: false,
             rightToLeft: true,
-            initialIndex: '.last',
+            initialIndex: 1,
         });
         if (works_slider) {
             let works_slider_buttons = $('.works-slider-buttons');
@@ -71,4 +71,35 @@ $(document).ready(function () {
             }
         })
     }
+
+    let facts_slider = new Flickity(document.querySelector('.facts-slider'), {
+        prevNextButtons: false,
+        initialIndex: 2,
+        wrapAround: true,
+        freeScroll: true,
+        autoPlay: 1300,
+        pageDots: false
+    });
 });
+
+$(document).ready(function () {
+    $('#faq-accordion .accordion-item').each(function (index, item) {
+        let title_height = $(this).find('.accordion-title').outerHeight();
+        let final_height = $(this).outerHeight();
+        $(this).attr('style', `height: ${title_height}px`);
+        $(this).on('click', function () {
+            if ($(this).hasClass('active')) {
+                $(this).removeClass('active');
+                $(this).attr('style', `height: ${title_height}px`);
+            } else {
+                $('#faq-accordion .accordion-item').each(function (index, item) {
+                    let title_height = $(item).find('.accordion-title').outerHeight();
+                    $(this).attr('style', `height: ${title_height}px`);
+                    $(this).removeClass('active');
+                })
+                $(this).addClass('active');
+                $(this).attr('style', `height: ${final_height}px`);
+            }
+        });
+    });
+})
