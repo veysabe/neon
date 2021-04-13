@@ -119,6 +119,34 @@
       display: block;
     }
   }
+
+  // FAQ
+  .faq-title {
+    font-size: 44px !important;
+    margin-top: 100px !important;
+  }
+  .faq-wrapper {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "image"
+    ".";
+
+    margin-top: -120px !important;
+
+    .faq-content {
+      margin-top: 44px !important;
+    }
+
+    .faq-image {
+      grid-area: image;
+      overflow: hidden;
+      img {
+        margin-left: -40px;
+        width: 110%;
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -180,9 +208,11 @@
   // FACTS
   .facts {
     padding-top: 50px;
+
     .facts-slider {
       padding-top: 60px;
     }
+
     .facts-text-content {
       padding-top: 36px;
       grid-template-columns: 1fr;
@@ -196,6 +226,21 @@
         color: #7A7A7A;
       }
     }
+  }
+
+  // ACCORDION
+  .accordion-title {
+    padding: 46px 35px;
+    font-size: 30px;
+    &:after {
+      width: 20px;
+      height: 20px;
+      top: calc(50% - 20px);
+    }
+  }
+  .accordion-content {
+    font-size: 18px;
+    padding: 0 35px 46px 35px;
   }
 }
 
@@ -306,6 +351,29 @@
     }
   }
 
+  // FAQ
+  .faq-title {
+    font-size: 22px !important;
+    margin-top: 44px !important;
+  }
+  .faq-wrapper {
+
+    margin-top: -40px !important;
+
+    .faq-content {
+      margin-top: 44px !important;
+    }
+
+    .faq-image {
+      grid-area: image;
+      overflow: hidden;
+      img {
+        margin-left: -40px;
+        width: 110%;
+      }
+    }
+  }
+
   // BUTTONS
   .button {
     font-size: 13px;
@@ -324,5 +392,20 @@
   // LINE RIDER
   .line-rider {
     display: none;
+  }
+
+  // ACCORDION
+  .accordion-title {
+    padding: 24px 18px;
+    font-size: 16px;
+    &:after {
+      width: 10px;
+      height: 10px;
+      top: calc(50% - 10px);
+    }
+  }
+  .accordion-content {
+    font-size: 14px;
+    padding: 0 18px 30px 18px;
   }
 }

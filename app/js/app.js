@@ -85,7 +85,8 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('#faq-accordion .accordion-item').each(function (index, item) {
         let title_height = $(this).find('.accordion-title').outerHeight();
-        let final_height = $(this).outerHeight();
+        let content_height = $(this).find('.accordion-content').outerHeight();
+        let final_height = title_height + content_height;
         $(this).attr('style', `height: ${title_height}px`);
         $(this).on('click', function () {
             if ($(this).hasClass('active')) {

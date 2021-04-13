@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/styles/sass/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/main.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
       <workItem from="1618156340728" duration="145000" />
       <workItem from="1618156500291" duration="11000" />
       <workItem from="1618156513047" duration="8814000" />
-      <workItem from="1618256206351" duration="4722000" />
+      <workItem from="1618256206351" duration="6366000" />
     </task>
     <servers />
   </component>
