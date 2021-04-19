@@ -72,6 +72,7 @@
   border-radius: 5px;
   padding: 15px 26px 15px 50px;
   position: relative;
+  color: #4C4C56;
   &:before {
     content: '';
     position: absolute;
@@ -91,7 +92,7 @@
   li {
     width: 26px;
     height: 2px;
-    background-color: white;
+    background-color: #1F1F2C;
     border-radius: 5px;
     cursor: pointer;
     &.slick-active {

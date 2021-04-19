@@ -38,7 +38,7 @@
       li {
         width: 26px;
         height: 2px;
-        background-color: #fff;
+        background-color: #1F1F2C;
         border-radius: 5px;
         cursor: pointer;
 
@@ -461,6 +461,9 @@
         margin-left: 0 !important;
         text-align: center;
         margin-top: 14px;
+        br {
+          display: none;
+        }
       }
     }
   }
@@ -599,6 +602,7 @@
   // INSTA
   .instagram {
     margin-bottom: 70px;
+    padding: 0 15px;
     .instagram-image {
       height: 162px !important;
     }

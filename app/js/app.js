@@ -122,7 +122,7 @@ $( window ).resize(function() {
     initSliders();
     setTimeout(function () {
         initAccordion();
-    }, 500)
+    }, 1000)
 
 });
 
@@ -131,7 +131,15 @@ $(function () {
     let orderModal = new bootstrap.Modal(document.getElementById('orderModal'));
     $('.feedback-form-form').on('submit', function (e) {
         e.preventDefault();
-        orderModal.toggle();
+        orderModal.hide();
         successModal.show();
+    })
+});
+
+$(function () {
+    $('.burger').on('click', function () {
+        $('.header-mob-inner').toggleClass('active');
+        $(this).toggleClass('active');
+        $('body').toggleClass('stop');
     })
 });
