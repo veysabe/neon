@@ -19,14 +19,28 @@ $('.promos-slider').slick({
     prevArrow: $('.promos-slider-buttons .left'),
     nextArrow: $('.promos-slider-buttons .right'),
 });
-$(document).ready(function () {
-    let works_slider = false;
+let works_slider = false;
+let facts_slider = new Flickity(document.querySelector('.facts-slider'), {
+    prevNextButtons: false,
+    initialIndex: 2,
+    wrapAround: true,
+    freeScroll: true,
+    autoPlay: 1300,
+    pageDots: false
+});
+
+function initSliders() {
     if (window.innerWidth > 1024) {
+        $('.works-slider').attr('style', '');
         works_slider = new Flickity(document.querySelector('.works-slider'), {
             cellAlign: 'right',
+            contain: true,
+            adaptiveHeight: false,
+            setGallerySize: false,
             prevNextButtons: false,
             rightToLeft: true,
             initialIndex: 1,
+            wrapAround: false,
         });
         if (works_slider) {
             let works_slider_buttons = $('.works-slider-buttons');
@@ -39,6 +53,7 @@ $(document).ready(function () {
             });
         }
     } else {
+        works_slider.destroy();
         let works_elements = $('.works-slider');
 
         let height = 0;
@@ -71,18 +86,9 @@ $(document).ready(function () {
             }
         })
     }
+}
 
-    let facts_slider = new Flickity(document.querySelector('.facts-slider'), {
-        prevNextButtons: false,
-        initialIndex: 2,
-        wrapAround: true,
-        freeScroll: true,
-        autoPlay: 1300,
-        pageDots: false
-    });
-});
-
-$(document).ready(function () {
+function initAccordion() {
     $('#faq-accordion .accordion-item').each(function (index, item) {
         let title_height = $(this).find('.accordion-title').outerHeight();
         let content_height = $(this).find('.accordion-content').outerHeight();
@@ -103,4 +109,25 @@ $(document).ready(function () {
             }
         });
     });
-})
+}
+
+$(document).ready(function () {
+    initSliders();
+    initAccordion();
+});
+
+$( window ).resize(function() {
+    console.log('resize');
+    initSliders();
+    initAccordion();
+});
+
+$(function () {
+    let successModal = new bootstrap.Modal(document.getElementById('successModal'));
+    let orderModal = new bootstrap.Modal(document.getElementById('orderModal'));
+    $('.feedback-form-form').on('submit', function (e) {
+        e.preventDefault();
+        orderModal.toggle();
+        successModal.show();
+    })
+});

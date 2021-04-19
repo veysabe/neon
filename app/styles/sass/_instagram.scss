@@ -1,0 +1,38 @@
+.instagram {
+  margin-top: 206px;
+  margin-bottom: 200px;
+  .instagram-line {
+    position: relative;
+    background: linear-gradient(111.1deg, #122036 11.56%, #160914 83.15%);
+    padding: 82px;
+    display: flex;
+    align-items: flex-end;
+    .instagram-image {
+      left: 0;
+      top: -50%;
+      transform: translate(0, 25%);
+      position: absolute;
+      max-width: 55%;
+      img {
+        max-width: 100%;
+      }
+    }
+    .instagram-text-wrapper {
+      width: 40%;
+      margin-left: auto;
+    }
+    .instagram-text {
+      font-family: 'Gilroy';
+      font-weight: 800;
+      font-size: 35px;
+      line-height: 137.9%;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+      span {
+        color: #74E075;
+      }
+
+      margin-bottom: 48px;
+    }
+  }
+}

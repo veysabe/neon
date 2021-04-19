@@ -66,6 +66,26 @@
   }
 }
 
+.button-to-top {
+  font-family: Montserrat;
+  background: #0E0D1E;
+  border-radius: 5px;
+  padding: 15px 26px 15px 50px;
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    width: 8px;
+    height: 8px;
+    border-left: 2px solid #2D2C38;
+    border-top: 2px solid #2D2C38;
+    transform: rotate(45deg);
+    border-radius: 2px;
+  }
+}
+
 .slick-dots {
   display: flex;
   li {

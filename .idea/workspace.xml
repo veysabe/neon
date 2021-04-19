@@ -4,10 +4,17 @@
     <list default="true" id="3c36115d-1786-436b-82b8-f3dd007165a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/dist/banner/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/dist/banner/1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/sass/_btn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/_btn.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/sass/_facts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/_facts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/sass/_faq.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/_faq.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/sass/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/_header.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/styles/sass/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/sass/_works.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/_works.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/sass/main.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +69,13 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Job\neon\app\images\dist" />
-      <recent name="C:\Job\neon\app\images\dist\facts" />
-      <recent name="C:\Job\neon\app\images\dist\works" />
-      <recent name="C:\Job\neon\app\js" />
-      <recent name="C:\Job\neon\app\images\dist\promos" />
+      <recent name="C:\Job\neon\app\styles\sass" />
+      <recent name="C:\Job\neon\app\images" />
+      <recent name="C:\Job\neon\app\images\dist\banner" />
+      <recent name="C:\Job\neon\app\images\dist\insta" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Job\neon\app\images\dist\feedback" />
       <recent name="C:\Job\neon\app\images\dist\faq" />
       <recent name="C:\Job\neon\app\images\dist" />
       <recent name="C:\Job\neon\app\images\dist\banner" />
@@ -85,7 +93,9 @@
       <workItem from="1618156340728" duration="145000" />
       <workItem from="1618156500291" duration="11000" />
       <workItem from="1618156513047" duration="8814000" />
-      <workItem from="1618256206351" duration="6366000" />
+      <workItem from="1618256206351" duration="13598000" />
+      <workItem from="1618749156252" duration="10061000" />
+      <workItem from="1618850223990" duration="2243000" />
     </task>
     <servers />
   </component>

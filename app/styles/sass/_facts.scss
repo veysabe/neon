@@ -37,12 +37,15 @@
     }
   }
 
+  .facts-element {
+    margin: 0 -40px;
+  }
+
   .facts-element + .facts-element{
-    margin-right: -100px;
   }
 
   .facts-element:nth-child(2n) {
-    margin-right: -60px;
-    padding-top: 82px;
+    padding-top: 50px;
+    margin-left: -60px;
   }
 }

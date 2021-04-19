@@ -4,6 +4,7 @@
     grid-template-columns: 671px 1fr;
     grid-gap: 0 5px;
     margin-top: -180px;
+    font-family: Roboto;
   }
   .faq-title {
     font-weight: 800;
@@ -21,6 +22,10 @@
   .faq-content {
     margin-top: 221px;
     font-family: Montserrat;
+  }
+
+  .faq-image img {
+    max-width: 100%;
   }
 }
 
@@ -68,6 +73,7 @@
     right: 25px;
     top: calc(50% - 5px);
     transform: rotate(-45deg);
+    border-radius: 2px;
   }
 }
 

@@ -4,6 +4,97 @@
   }
 }
 
+@media (min-width: 1440px) {
+  .works {
+    padding-top: 140px;
+    position: relative;
+
+    .works-item {
+      width: 40%;
+      transition: .3s all ease-in-out;
+      padding-top: 40px;
+
+      img {
+        transition: .3s all ease-in-out;
+        width: 100%;
+      }
+
+      &.is-selected {
+        width: 60%;
+        padding-top: 0px;
+        img {
+          padding-left: 60px;
+        }
+      }
+    }
+
+    .flickity-page-dots {
+      list-style-type: none;
+      display: flex;
+      position: absolute;
+      bottom: 40px;
+      left: 17%;
+
+      li {
+        width: 26px;
+        height: 2px;
+        background-color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &.is-selected {
+          background: linear-gradient(138.21deg, #74e075 5.37%, #42922e 101.49%);
+        }
+      }
+
+      li + li {
+        margin-left: 12px;
+      }
+    }
+
+    .works-slider-buttons {
+      position: absolute;
+      bottom: 30px;
+      left: 36%;
+    }
+
+    .works-slider {
+      outline: none;
+      border: none;
+      transition: .3s all ease-in-out;
+    }
+
+    .works-show-more {
+      display: none;
+      padding-top: 27px;
+      .button {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .instagram {
+    .instagram-image {
+      transform: translate(0, 42.5%) !important;
+    }
+  }
+
+  .works {
+    padding-top: 140px;
+    .works-item, .works-item.is-selected {
+      padding: 0 10px;
+    }
+    .works-item {
+      height: 400px;
+    }
+    .works-item.is-selected {
+      width: 50% !important;
+    }
+  }
+}
+
 @media (max-width: 1305px) {
   // MAIN BLOCK
   .main-block .main-block-slider .slick-dots {
@@ -52,6 +143,9 @@
       font-size: 12px;
     }
   }
+  .fake-header {
+    height: 56px !important;
+  }
 
   // MAIN BLOCK
   .main-block-item {
@@ -80,7 +174,7 @@
     .slick-dots {
       right: 50%;
       transform: translate(50%, 0);
-      bottom: -70px;
+      bottom: -35px;
 
       li:not(.slick-active) {
         background-color: #1F1F2C;
@@ -102,6 +196,10 @@
       width: 100%;
       margin-left: 0;
       padding-top: 33px;
+      height: auto;
+      img {
+        width: 100%;
+      }
     }
 
     .works-header {
@@ -117,34 +215,85 @@
 
     .works-show-more {
       display: block;
+      width: 100%;
+      padding-top: 40px;
+      .button {
+        width: 100%;
+      }
     }
   }
 
   // FAQ
-  .faq-title {
-    font-size: 44px !important;
-    margin-top: 100px !important;
-  }
-  .faq-wrapper {
-    grid-template-columns: 1fr !important;
-    grid-template-rows: auto auto;
-    grid-template-areas:
+  .faq {
+    .faq-title {
+      font-size: 44px !important;
+      margin-top: 100px !important;
+    }
+    .faq-wrapper {
+      grid-template-columns: 1fr !important;
+      grid-template-rows: auto auto;
+      grid-template-areas:
     "image"
     ".";
 
-    margin-top: -120px !important;
+      margin-top: -120px !important;
 
-    .faq-content {
-      margin-top: 44px !important;
+      .faq-content {
+        margin-top: 44px !important;
+      }
+
+      .faq-image {
+        grid-area: image;
+        overflow: hidden;
+        img {
+          margin-left: -40px;
+          width: 110%;
+        }
+      }
     }
+  }
 
-    .faq-image {
-      grid-area: image;
+  // INSTA
+  .instagram {
+    margin-top: 104px;
+    .instagram-line {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .instagram-image {
+      top: 0 !important;
+      transform: translate(0) !important;
+      height: 316px;
+      width: 100%;
       overflow: hidden;
+      position: relative !important;
+      max-width: 110% !important;
       img {
-        margin-left: -40px;
+        max-width: unset !important;
         width: 110%;
       }
+    }
+
+    .instagram-text-wrapper {
+      padding: 39px;
+      width: 100% !important;
+      text-align: center;
+      text-transform: uppercase;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .instagram-text {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .feedback {
+    .feedback-wrapper {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr auto;
+      grid-gap: 43px 0;
     }
   }
 }
@@ -153,56 +302,56 @@
   // PROMOS
   .promos {
     padding-top: 50px;
-  }
-  .promos-slider {
-    .promo-item-wrapper {
-      flex-direction: column;
-    }
+    .promos-slider {
+      .promo-item-wrapper {
+        flex-direction: column;
+      }
 
-    .promo-item-image {
-      min-width: auto;
-      width: 100%;
-    }
+      .promo-item-image {
+        min-width: auto;
+        width: 100%;
+      }
 
-    .promo-item-badge {
+      .promo-item-badge {
+        position: relative;
+        top: 0;
+        min-width: auto;
+        width: 100%;
+        padding: 50px 30px;
+
+        .text {
+          font-size: 26px;
+        }
+
+        .percent {
+          font-size: 50px;
+        }
+
+        .promo-item-button {
+          margin-top: 25px;
+          margin-left: -63px;
+          text-align: center;
+        }
+      }
+    }
+    .promos-slider-buttons {
       position: relative;
-      top: 0;
-      min-width: auto;
+      right: 0 !important;
       width: 100%;
-      padding: 50px 30px;
+      margin-top: 15px;
 
-      .text {
-        font-size: 26px;
+      .slider-buttons {
+        justify-content: space-between;
       }
-
-      .percent {
-        font-size: 50px;
-      }
-
-      .promo-item-button {
-        margin-top: 25px;
-        margin-left: -63px;
-        text-align: center;
-      }
-    }
-  }
-  .promos-slider-buttons {
-    position: relative;
-    right: 0 !important;
-    width: 100%;
-    margin-top: 35px;
-
-    .slider-buttons {
-      justify-content: space-between;
     }
   }
 
   // WORKS
   .works {
     padding-top: 50px;
-  }
-  .works-header {
-    padding-bottom: 0 !important;
+    .works-header {
+      padding-bottom: 0 !important;
+    }
   }
 
   // FACTS
@@ -228,6 +377,14 @@
     }
   }
 
+  // PROMOS
+  .promos-slider {
+
+    .slick-dots {
+      bottom: -45px;
+    }
+  }
+
   // ACCORDION
   .accordion-title {
     padding: 46px 35px;
@@ -241,6 +398,71 @@
   .accordion-content {
     font-size: 18px;
     padding: 0 35px 46px 35px;
+  }
+
+  .feedback {
+    .feedback-title {
+      text-align: center;
+      letter-spacing: 0.04em;
+    }
+
+    .feedback-subtitle {
+      line-height: 167%;
+      text-align: center;
+      letter-spacing: 0.005em;
+    }
+
+    .feedback-contacts {
+      padding: 35px;
+    }
+
+    .soc-link {
+      width: 45px !important;
+      height: 45px !important;
+    }
+
+    .soc ul li+li {
+      margin-left: 15px;
+    }
+
+    .feedback-contacts-soc {
+      margin-top: 43px;
+    }
+
+    .feedback-contacts-text>div+div {
+      margin-top: 40px !important;
+    }
+  }
+
+  .footer {
+    flex-direction: column;
+    .button {
+      margin-bottom: 20px;
+    }
+  }
+
+  .feedback-form {
+    .feedback-form-title {
+      text-align: center;
+    }
+
+    .feedback-form-input-group {
+      grid-template-columns: 1fr !important;
+      input+input {
+        margin-left: 0 !important;
+        margin-top: 40px;
+      }
+    }
+
+    .feedback-form-button {
+      margin-top: 27px;
+      flex-direction: column;
+      span {
+        margin-left: 0 !important;
+        text-align: center;
+        margin-top: 14px;
+      }
+    }
   }
 }
 
@@ -374,6 +596,22 @@
     }
   }
 
+  // INSTA
+  .instagram {
+    margin-bottom: 70px;
+    .instagram-image {
+      height: 162px !important;
+    }
+    margin-top: 50px;
+    .instagram-text-wrapper {
+      padding: 20px;
+      .instagram-text {
+        font-size: 22px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
   // BUTTONS
   .button {
     font-size: 13px;
@@ -398,14 +636,43 @@
   .accordion-title {
     padding: 24px 18px;
     font-size: 16px;
+    padding-right: 40px;
     &:after {
       width: 10px;
       height: 10px;
       top: calc(50% - 10px);
+      right: 25px;
     }
   }
   .accordion-content {
     font-size: 14px;
     padding: 0 18px 30px 18px;
+  }
+
+  // FAQ
+  .faq {
+    .faq-wrapper {
+      margin-top: -60px !important;
+    }
+  }
+
+  .feedback {
+    .feedback-title {
+      font-size: 22px;
+    }
+
+    .feedback-subtitle {
+      font-size: 12px;
+    }
+
+    .feedback-form-title {
+      font-size: 20px;
+    }
+
+    .feedback-contacts {
+      .feedback-contacts-title {
+        font-size: 22px;
+      }
+    }
   }
 }

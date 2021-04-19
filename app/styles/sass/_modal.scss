@@ -1,0 +1,55 @@
+#orderModal {
+  .feedback-form {
+    margin-top: 0;
+  }
+
+  .modal-dialog {
+    max-width: 746px;
+  }
+}
+
+#successModal {
+  font-family: 'TT Norms';
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    img {
+      margin-top: -135px;
+    }
+    h5 {
+      font-weight: 800;
+      font-size: 25px;
+      line-height: 128.19%;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 132.69%;
+      color: #5A5A67;
+      margin-bottom: 33px !important;
+    }
+  }
+}
+
+.default-modal {
+  .modal-content {
+    background: #09081A;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 40px;
+    position: relative;
+    .button-close {
+      width: 14px;
+      height: 14px;
+      position: absolute;
+      top: 17px;
+      right: 17px;
+      background-color: transparent;
+      outline: none;
+      border: none;
+    }
+  }
+}

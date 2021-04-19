@@ -1,6 +1,14 @@
 .works {
-  padding-top: 140px;
-  position: relative;
+  .flickity-slider {
+    height: 500px;
+    width: 100%;
+  }
+  .works-item {
+    height: 337px;
+  }
+  .works-item.is-selected {
+    height: 488px;
+  }
 
   .works-header {
     display: flex;
@@ -34,67 +42,6 @@
         text-decoration: none;
         color: white;
       }
-    }
-  }
-
-  .works-item {
-    width: 40%;
-    transition: .3s all ease-in-out;
-    padding-top: 40px;
-    margin-left: 60px;
-
-    img {
-      transition: .3s all ease-in-out;
-      width: 100%;
-    }
-
-    &.is-selected {
-      width: 60%;
-      padding-top: 0px;
-    }
-  }
-
-  .flickity-page-dots {
-    list-style-type: none;
-    display: flex;
-    position: absolute;
-    bottom: 40px;
-    left: 13%;
-
-    li {
-      width: 26px;
-      height: 2px;
-      background-color: #fff;
-      border-radius: 5px;
-      cursor: pointer;
-
-      &.is-selected {
-        background: linear-gradient(138.21deg, #74e075 5.37%, #42922e 101.49%);
-      }
-    }
-
-    li + li {
-      margin-left: 12px;
-    }
-  }
-
-  .works-slider-buttons {
-    position: absolute;
-    bottom: 30px;
-    left: 32.5%;
-  }
-
-  .works-slider {
-    outline: none;
-    border: none;
-    transition: .3s all ease-in-out;
-  }
-
-  .works-show-more {
-    display: none;
-    padding-top: 27px;
-    .button {
-      width: 100%;
     }
   }
 }
