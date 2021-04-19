@@ -53,7 +53,9 @@ function initSliders() {
             });
         }
     } else {
-        works_slider.destroy();
+        if (works_slider) {
+            works_slider.destroy();
+        }
         let works_elements = $('.works-slider');
 
         let height = 0;
@@ -112,8 +114,8 @@ function initAccordion() {
 }
 
 $(document).ready(function () {
-    initSliders();
     initAccordion();
+    initSliders();
 });
 
 $( window ).resize(function() {
