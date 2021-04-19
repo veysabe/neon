@@ -119,9 +119,11 @@ $(document).ready(function () {
 });
 
 $( window ).resize(function() {
-    console.log('resize');
     initSliders();
-    initAccordion();
+    setTimeout(function () {
+        initAccordion();
+    }, 500)
+
 });
 
 $(function () {
