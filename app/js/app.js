@@ -118,7 +118,7 @@ $(document).ready(function () {
     initSliders();
 });
 
-$( window ).resize(function() {
+$(window).resize(function () {
     initSliders();
     setTimeout(function () {
         initAccordion();
@@ -142,4 +142,25 @@ $(function () {
         $(this).toggleClass('active');
         $('body').toggleClass('stop');
     })
+});
+
+$(function () {
+    $("a.smooth-scroll").on('click', function (e) {
+        e.preventDefault();
+        let $this = $(this),
+            id = $this.attr('href');
+        $('html, body').animate({
+            scrollTop: $(id).offset().top  // класс объекта к которому приезжаем
+        }, 1000);
+        $('body').removeClass('stop');
+        $('.header-mob-inner').removeClass('active');
+        $('.burger').removeClass('active');
+    });
+    $(".button-to-top").on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: 0  // класс объекта к которому приезжаем
+        }, 1000);
+    });
+
 });
