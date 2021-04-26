@@ -294,6 +294,10 @@
       grid-template-columns: 1fr;
       grid-template-rows: 1fr auto;
       grid-gap: 43px 0;
+      overflow: hidden;
+    }
+    .feedback-form-form {
+      padding: 0 40px;
     }
   }
 }

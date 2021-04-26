@@ -6,8 +6,8 @@ $('.main-block-slider').slick({
     infinite: true,
     arrows: false,
     dots: true,
-    autoplay: false,
-    autoplaySpeed: 4000,
+    autoplay: true,
+    autoplaySpeed: 10000,
 });
 
 $('.promos-slider').slick({
@@ -164,3 +164,17 @@ $(function () {
     });
 
 });
+
+$(function () {
+    $('.works-show-more-modal').on('click', function () {
+        let grid = $(this).siblings('.works-grid')[0];
+        let items = $(grid).find('.works-item');
+        items.each((index, item) => {
+            if ($(item).hasClass('hidden')) {
+                $(item).removeClass('hidden');
+                $(item).fadeIn();
+            }
+        })
+        $(this).remove();
+    })
+})

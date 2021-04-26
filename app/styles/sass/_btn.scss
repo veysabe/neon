@@ -18,6 +18,8 @@
   &:active, &:focus {
     outline: none;
   }
+
+  cursor: pointer;
 }
 
 .button-green {
@@ -62,6 +64,9 @@
   line-height: 115.5%;
   text-transform: uppercase;
   &:active {
+    color: white;
+  }
+  &:hover {
     color: white;
   }
 }

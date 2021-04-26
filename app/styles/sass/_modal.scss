@@ -53,3 +53,37 @@
     }
   }
 }
+
+#worksModal {
+  .modal-dialog {
+    max-width: 1150px;
+  }
+
+  .modal-title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 115.5%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #D9D9D9;
+    span {
+      color: #EF60BE;
+    }
+  }
+
+  .modal-body {
+    padding: 30px 0 0;
+  }
+
+  .works-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    .works-item {
+      max-width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
