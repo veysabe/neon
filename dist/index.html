@@ -375,7 +375,7 @@
                 <!--                работы <span>Neonik art</span>-->
             </div>
             <div class="watch-all">
-                <a href="#worksModal">Посмотреть все работы</a>
+                <a href="#worksModal" data-bs-toggle="modal">Посмотреть все работы</a>
             </div>
         </div>
     </div>
@@ -700,49 +700,63 @@
                           stroke-linejoin="round"/>
                 </svg>
             </button>
+            <div class="modal-title">
+                Все <span>работы</span>
+            </div>
             <div class="modal-body">
-                <div class="feedback-form">
-                    <form action="" class="feedback-form-form">
-                        <div class="feedback-form-title">
-                            Все <span>работы</span>
+                <div class="works-grid">
+                    <div class="works-item">
+                        <div class="works-item-image">
+                            <img src="images/dist/works/1.png" alt="" loading="lazy">
                         </div>
-                        <p class="feedback-form-subtitle">
-                            Вы можете связаться с нами или отправить нам сообщение с фотографией желаемой неоновой
-                            лампы, и мы с удовольствием сделаем лампу по вашему пожеланию!
-                        </p>
-                        <div class="feedback-form-input">
-                            <div class="feedback-form-input-group">
-                                <input type="text" placeholder="Имя">
-                                <input type="text" placeholder="Почта">
-                                <input type="text" placeholder="+7">
-                            </div>
+                    </div>
+                    <div class="works-item">
+                        <div class="works-item-image">
+                            <img src="images/dist/works/2.png" alt="" loading="lazy">
                         </div>
-                        <div class="feedback-form-textarea">
-                            <textarea name="" placeholder="Сообщение"></textarea>
+                    </div>
+                    <div class="works-item">
+                        <div class="works-item-image">
+                            <img src="images/dist/works/3.png" alt="" loading="lazy">
                         </div>
-                        <div class="feedback-form-file">
-                            <label>
-                                <input type="file">
-                                <div class="fake-file">
-                                    <div class="fake-file-plus">
-                                        <span>+</span>
-                                    </div>
-                                    <div class="feedback-file-text">
-                                        Прикрепить фото желаемой лампы
-                                    </div>
-                                </div>
-                            </label>
+                    </div>
+                    <div class="works-item">
+                        <div class="works-item-image">
+                            <img src="images/dist/works/1.png" alt="" loading="lazy">
                         </div>
-
-                        <div class="feedback-form-button">
-                            <button class="button button-green">Отправить</button>
-                            <span>
-                                Нажимая на кнопку «Отправить», Вы
-                                <br>принимаете пользовательское соглашение
-                            </span>
+                    </div>
+                    <div class="works-item">
+                        <div class="works-item-image">
+                            <img src="images/dist/works/2.png" alt="" loading="lazy">
                         </div>
-                    </form>
+                    </div>
+                    <div class="works-item">
+                        <div class="works-item-image">
+                            <img src="images/dist/works/1.png" alt="" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="works-item">
+                        <div class="works-item-image">
+                            <img src="images/dist/works/2.png" alt="" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="works-item">
+                        <div class="works-item-image">
+                            <img src="images/dist/works/3.png" alt="" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="works-item hidden" style="display: none">
+                        <div class="works-item-image">
+                            <img src="images/dist/works/1.png" alt="" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="works-item hidden" style="display: none">
+                        <div class="works-item-image">
+                            <img src="images/dist/works/2.png" alt="" loading="lazy">
+                        </div>
+                    </div>
                 </div>
+                <div class="button button-outline mt-3 works-show-more-modal">Загрузить еще</div>
             </div>
         </div>
     </div>
